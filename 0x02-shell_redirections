@@ -1,1 +1,4 @@
+git clone https://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@github.com/Yabiti/alx-system_engineering-devops.git
 
+git config --global user.email "yabetseyoannes@gmail.com" 
+git config --global user.email "Yabiti" 
