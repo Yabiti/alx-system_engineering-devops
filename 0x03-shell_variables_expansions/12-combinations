@@ -1,0 +1,2 @@
+#!/bin/bash
+echo (a..2)(a..2) | tr ' ' '/n' | grep -v "00"
