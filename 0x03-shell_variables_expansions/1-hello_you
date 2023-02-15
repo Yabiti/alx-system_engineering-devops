@@ -1,2 +1,2 @@
-$!/bin/bash
-eco "hello $_you
+#!/usr/bin/bash
+echo "hello $MYUSR
