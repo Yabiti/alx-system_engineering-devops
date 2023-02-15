@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-echo "hello $MYUSR
+echo "hello $USER
