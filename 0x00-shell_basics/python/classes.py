@@ -8,7 +8,7 @@ class Flight:
         self.passengers.append(name)
             return True
     def open_seats(self):
-        returnself.capacity - len(self.passengers)
+        return self.capacity - len(self.passengers)
 Flight = flight(3)
 
 people = ["harry", "hermone", "ron", "draco"]
