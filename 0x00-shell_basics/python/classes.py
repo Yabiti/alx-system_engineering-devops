@@ -5,5 +5,5 @@ class Flight:
 
     def add-passengers(self, name):
         if not self.open_seats():
-
+            return False
 Flight = flight(3)
