@@ -4,4 +4,5 @@ class Fight:
     self.passengers = []
 
     def add_passengers(self, name):
+        self.passengers.append(name)
 Flight = flight(3):
