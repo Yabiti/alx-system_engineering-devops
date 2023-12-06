@@ -4,6 +4,7 @@ class Fight:
     self.passengers = []
 
     def add_passengers(self, name):
+        if not self.open_seats():
         self.passengers.append(name)
 
     def open_seats(self):
