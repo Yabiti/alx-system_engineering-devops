@@ -7,6 +7,7 @@ class Fight:
         if not self.open_seats():
             return False
         self.passengers.append(name)
+            return True
 
     def open_seats(self):
         return self.capacity - self.passengers
