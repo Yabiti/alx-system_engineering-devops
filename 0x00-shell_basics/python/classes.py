@@ -10,11 +10,11 @@ class Flight:
         return True
     def open_seats(self):
         return self.capacity - len(self.passengers)
-Flight = flight(3)
+flight = Flight(3)
 
 people = ["harry", "hermone", "ron", "draco"]
 for person in people:
-    if flight.add_passenger(person):
-        print("passenger added {person} to successfully")
+    if flight.add_passengers(person):
+        print(f"passenger added {people} to successfully")
     else:
-        print("no available seats for {person}")
+        print(f"no available seats for {person}")
