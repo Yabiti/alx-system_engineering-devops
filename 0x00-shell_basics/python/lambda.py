@@ -5,8 +5,6 @@ people = [
     {"name": "le", "house": "bmo"}
 ]
 
-
-
 people.sort(key=lambda person: person["name"])
 
 print(people)
