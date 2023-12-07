@@ -3,3 +3,4 @@ def announce(f):
         print("About to run a function")
         f()
         print("end of function")
+    return wrapper
