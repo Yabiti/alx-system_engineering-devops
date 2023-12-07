@@ -7,3 +7,5 @@ person = [
 def person(f):
     return person(name)
 people.sort(key=f)
+
+print(people)
