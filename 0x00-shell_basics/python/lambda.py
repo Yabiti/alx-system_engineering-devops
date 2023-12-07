@@ -4,4 +4,5 @@ person = [
     {"name": "pison", "house" : "len"}
 ]
 
+def person(f):
 people.sort()
