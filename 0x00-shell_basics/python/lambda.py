@@ -1,7 +1,8 @@
 people = [
     {"name": "Draco", "house" : "sltherin"},
     {"name": "Hermoine", "house" : "dam"},
-    {"name": "pison", "house" : "len"}
+    {"name": "pison", "house" : "len"},
+    {"name": "le", "house": "bmo"}
 ]
 
 
