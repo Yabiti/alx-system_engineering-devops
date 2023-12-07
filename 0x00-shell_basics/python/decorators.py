@@ -3,6 +3,7 @@ def wrapper():
     f()
     print("functions terminated")
     return wrapper
+
 @wrapper
 def hello():
     print("Hello, World!")
