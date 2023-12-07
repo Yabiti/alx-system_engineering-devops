@@ -1,8 +1,10 @@
 import sys
+try:
+    x = int(input("what's x? "))
+    y = int(input("what's y? "))
 
-x = int(input("what's x? "))
-y = int(input("what's y? "))
-
+except ValueError:
+    print("invalid input")
 try:
     result = x / y
 except ZeroDivisionError:
