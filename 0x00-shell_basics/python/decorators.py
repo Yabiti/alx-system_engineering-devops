@@ -6,3 +6,5 @@ def announce(f):
     return wrapper
 
 @announce
+
+def hello()
