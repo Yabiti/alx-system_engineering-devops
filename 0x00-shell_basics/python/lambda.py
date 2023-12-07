@@ -6,6 +6,6 @@ people = [
 
 
 
-people.sort(key=lamda person: person["name"])
+people.sort(key=lambda person: person["name"])
 
 print(people)
