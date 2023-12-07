@@ -5,4 +5,5 @@ person = [
 ]
 
 def person(f):
+    retrun person(name)
 people.sort()
