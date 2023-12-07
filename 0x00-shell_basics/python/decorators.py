@@ -1,1 +1,2 @@
-def announce(f)
+def announce(f):
+    def wrapper():
