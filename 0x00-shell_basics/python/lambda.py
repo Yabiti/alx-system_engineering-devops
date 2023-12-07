@@ -6,6 +6,6 @@ people = [
 
 
 
-people.sort(key=f)
+people.sort(key=lamda person: person["name"])
 
 print(people)
