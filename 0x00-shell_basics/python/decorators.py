@@ -4,3 +4,5 @@ def announce(f):
         f()
         print("end of function")
     return wrapper
+
+@announce
