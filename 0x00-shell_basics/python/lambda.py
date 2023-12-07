@@ -4,7 +4,7 @@ people = [
     {"name": "pison", "house" : "len"}
 ]
 
-def person(f):
+def f(person):
     return person(name)
 people.sort(key=f)
 
