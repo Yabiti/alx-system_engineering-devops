@@ -5,7 +5,7 @@ def announce():
     print("functions terminated")
     return wrapper
 
-@wrapper
+@announce
 def hello():
     print("Hello, World!")
 
