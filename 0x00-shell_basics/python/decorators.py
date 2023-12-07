@@ -7,4 +7,5 @@ def announce(f):
 
 @announce
 
-def hello()
+def hello():
+    print("mama mia!")
