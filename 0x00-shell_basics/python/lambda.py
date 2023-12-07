@@ -5,7 +5,8 @@ people = [
 ]
 
 def f(person):
-    return person(name)
+    return person["name"]
+    
 people.sort(key=f)
 
 print(people)
