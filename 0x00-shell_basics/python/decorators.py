@@ -9,3 +9,5 @@ def announce(f):
 
 def hello():
     print("mama mia!")
+
+hello()
