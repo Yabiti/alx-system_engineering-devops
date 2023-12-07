@@ -6,4 +6,4 @@ person = [
 
 def person(f):
     retrun person(name)
-people.sort()
+people.sort(key=f)
