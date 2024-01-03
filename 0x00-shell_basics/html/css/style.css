@@ -22,3 +22,12 @@
     width: 75px;
     float: left;
 }
+
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
