@@ -10,3 +10,10 @@
     background-size: cover;
     height: 109vh;
 }
+
+.navbar {
+    height: 75px;
+    width: 100px;
+    margin: auto;
+}
+
