@@ -5,10 +5,9 @@
 
 .main {
     width: 100%;
-    background: linear-gradient(to top, rgba(0.0.0.0.5)50%),url(1.jpg);
+    background: linear-gradient(to top, rgba(0.0.0.0.5)50%);
     background: center;
     background-size: cover;
-    height: 109vh;
 }
 
 .navbar {
@@ -20,5 +19,5 @@
 .icon {
     height: 200px;
     width: 75px;
-    margin: auto;
+    float: left;
 }
