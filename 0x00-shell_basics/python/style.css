@@ -5,7 +5,7 @@
 .banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0,75),rgba(0,0,0,0.75)),url(lewandowski.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0,75),rgba(0,0,0,0.75)),url("../../../public/images/lewandowski.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: center
 }
