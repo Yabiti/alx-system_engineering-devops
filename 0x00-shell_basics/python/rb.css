@@ -1,9 +1,23 @@
+*{ 
+    padding: 0%;
+    margin: 10px;
+}
 p {
     text-align: justify;
     font-family: sans-serif;
     color: white;
+    text-shadow: 5px 5px 10px white;
 }
 
 h1 {
     text-align: center;
+    border: 25px 100px;
+    border-radius: 25px;
+    color: white;
+    background-color:blue;
+}
+
+h2 {
+    text-align: center;
+    margin-right: 50%;
 }
