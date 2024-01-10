@@ -1,4 +1,5 @@
-var number1 = 50
-var number2 = 50
+var multiply = 50 * 10
+var divide = 50 / 10
 
-console.log(number1 + number2)
+console.log("fifty times ten is", multiply)
+console.log("fifty divide by ten is", divide)
