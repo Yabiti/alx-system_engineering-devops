@@ -1,1 +1,3 @@
-var text = "hry there is some mother fuckers around here"
+var word1 = "billy"
+var word2 = "got"
+var word3 = "to go"
