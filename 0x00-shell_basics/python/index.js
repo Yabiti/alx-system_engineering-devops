@@ -1,4 +1,4 @@
-var button = document.querySelector('button');
-button.onclick = function() {
-    alert("hello, world");
-}
+var number1 = 50
+var number2 = 50
+
+console.log(number1 + number2)
