@@ -6,7 +6,7 @@ var weather = function(temprature){
     } else if(temprature <=30){
         console.log("the temparature is hot today");
     } else {
-        console.log("it's getting cold outside")
+        console.log("very hard weather");
     }
 }
 weather(10);
