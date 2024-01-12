@@ -3,5 +3,9 @@ var weather = function(temprature){
 
     if(temprature <= 65){
         console.log("it's getting cold outside")
+    } else {
+        console.log("it's getting hot outside")
     }
 }
+
+weather(70);
