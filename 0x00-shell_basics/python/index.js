@@ -1,1 +1,0 @@
-var sellsock = function(stockprice, sellsock)
