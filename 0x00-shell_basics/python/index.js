@@ -1,4 +1,3 @@
-var sellsock = function(sellsock, sellprice){
-    if(sellsock === sellprice);
-    return true
+var weather = function(temprature){
+    consolelog("the weather outside is", temprature);
 }
