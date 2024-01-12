@@ -1,3 +1,3 @@
 var weather = function(temprature){
-    consolelog("the weather outside is", temprature);
+    console.log("the weather outside is", temprature);
 }
