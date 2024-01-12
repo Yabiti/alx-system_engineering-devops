@@ -1,3 +1,5 @@
-var oneplustwo = sum(1, 2);
-var twoplustwenty = sum(2, 20);
+var weather = function(temprature) {
+    console.log("the eather is", temprature)
+}
 
+weather(50)
