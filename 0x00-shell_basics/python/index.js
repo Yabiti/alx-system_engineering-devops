@@ -9,3 +9,7 @@ var weather = function(temprature){
         console.log("the weather is cold");
     }
 }
+
+weather(20)
+weather(30)
+weather(40)
