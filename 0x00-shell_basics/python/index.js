@@ -3,8 +3,9 @@ var weather = function(temprature){
 
     if(temprature >=20){
         console.log("the weather is pleasnat");
-    else if(tempratue >= 30 && temprature > 40) {
-        
-    }
+    }else if(tempratue >= 30 && temprature > 40) {
+        console.log("better wear jacket");
+    } else {
+        console.log("the weather is cold");
     }
 }
