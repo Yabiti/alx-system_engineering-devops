@@ -1,15 +1,7 @@
-var weather = function(temprature){
-    console.log("the temprature outside is", temprature);
+var num = 0;
 
-    if(temprature <=20){
-        console.log("the temprature is pleasnat today");
-    } else if(temprature <=30){
-        console.log("the temparature is hot today");
-    } else {
-        console.log("very hard weather");
+while(num <=10){
+    if(num != 10){
+        console.log("the number is", num, "is lessthan 10")
     }
 }
-weather(10);
-weather(35);
-weather(40);
-weather(55);
