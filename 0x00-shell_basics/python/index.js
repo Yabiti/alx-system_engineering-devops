@@ -6,4 +6,5 @@ while(num <=10){
     } else {
         console.log("the number is", num ,"is now over");
     }
+    num++;
 }
