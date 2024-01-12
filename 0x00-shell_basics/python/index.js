@@ -1,5 +1,4 @@
-var weather = function(temprature) {
-    console.log("the eather is", temprature)
+if(true) {
+    console.log("this line will execute")
+    
 }
-
-weather(50)
