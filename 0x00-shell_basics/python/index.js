@@ -1,3 +1,3 @@
-var removedstudents = students.pop();
+var removedstudents = students.shift();
 console.log(students.tostring());
 console.log(removedstudents);
