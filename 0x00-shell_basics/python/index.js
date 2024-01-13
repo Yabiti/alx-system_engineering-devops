@@ -1,6 +1,2 @@
-var students = [
-   ["marry", "female", 10],
-   ["hellen", "female", 15],
-   ["yabetse", "Male, 17"]
-];
-printStudents(students);
+var printStudents = students.tostring();
+console.log(printStudents);
