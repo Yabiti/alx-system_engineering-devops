@@ -1,2 +1,2 @@
-students.push("allie")
-console.log(students[4]);
+var studentString = students.tostring();
+console.log(studentString);
