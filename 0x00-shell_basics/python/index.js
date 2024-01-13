@@ -4,5 +4,6 @@ var students = [
     ["yabetse", 15]
 ];
 
-var classSize = students.length;
-console.log(classSize);
+var removedStudent = students.pop();
+console.log(students.tostring);
+console.log(removedStudent);
