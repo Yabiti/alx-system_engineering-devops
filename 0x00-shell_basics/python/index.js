@@ -1,2 +1,2 @@
-var classSize = students.length;
-console.log(classSize);
+students.push("allie");
+console.log(students[4]);
