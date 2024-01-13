@@ -1,2 +1,2 @@
-students.push("allie");
+students.push("allie")
 console.log(students[4]);
