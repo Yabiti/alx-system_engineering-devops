@@ -1,2 +1,3 @@
-students.push("hallie");
-console.log(students[4]);
+var removedstudents = students.pop();
+console.log(students.tostring());
+console.log(removedstudents);
