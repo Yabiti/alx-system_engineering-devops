@@ -1,2 +1,2 @@
-var studentString = students.tostring();
-console.log(studentString);
+var newSize = students.length;
+console.log(newSize);
