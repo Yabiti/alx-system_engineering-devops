@@ -1,3 +1,2 @@
-var newSize = students.unshift();
-console.log(newSize);
-console.log(students.tostring());
+var studentString = students.tostring();
+console.log(studentString);
