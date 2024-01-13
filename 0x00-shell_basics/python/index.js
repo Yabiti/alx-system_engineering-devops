@@ -1,2 +1,2 @@
-var newSize = students.length;
-console.log(newSize);
+students.push("mallie")
+console.log(students[4]);
