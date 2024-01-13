@@ -1,2 +1,2 @@
-var printStudents = students.tostring();
-console.log(printStudents);
+var studentString = students.tostring();
+console.log(studentString);
