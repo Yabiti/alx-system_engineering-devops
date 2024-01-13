@@ -1,3 +1,3 @@
-var removedStudents = students.shift();
+var newSize = students.unshift();
+console.log(newSize);
 console.log(students.tostring());
-console.log(removedStudents);
