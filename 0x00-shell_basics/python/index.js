@@ -9,4 +9,4 @@ var student = {
     }
 }
 
-console.log(student.grades.Javascript);
+console.log(student.grades.SQL);
