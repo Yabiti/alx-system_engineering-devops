@@ -1,5 +1,9 @@
 ul {
   font-size: 20px;
-  color: green; }
+  color: white; }
+
+ol {
+  font-size: 15px;
+  color: white; }
 
 /*# sourceMappingURL=variables.css.map */

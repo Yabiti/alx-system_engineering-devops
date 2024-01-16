@@ -1,6 +1,11 @@
-$color:green;
+$color:white;
 
 ul {
     font-size: 20px;
+    color: $color;
+}
+
+ol {
+    font-size: 15px;
     color: $color;
 }

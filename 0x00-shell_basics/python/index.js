@@ -1,4 +1,5 @@
-student.gender = "female";
-student.height = "122cm";
-
-console.log(student.gender, student.height);
+var student = {
+    name: "marry",
+    age: 22
+}
+console.log(student);
