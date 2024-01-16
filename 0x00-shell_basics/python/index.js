@@ -1,5 +1,10 @@
 var weather = function(temprature){
-    console.log("the temprature outside is ", temprature , "degree farenieght!");
-}
+    console.log("the temprature outside is", temprature , "degree farenheight!");
 
-weather(50)
+    if(temprature <=20){
+        console.log("it's getting cold outside better wear a jacket!");
+    } else {
+        console.log("the weather is pleasant outside!");
+    }
+}
+weather(21)
