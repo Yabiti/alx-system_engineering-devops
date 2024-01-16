@@ -1,7 +1,5 @@
-var skycolor = "blue";
-var haircolor = "black";
-var carcolor = "blue";
+var weather = function(temprature){
+    console.log("the temprature outside is ", temprature , "degree farenieght!");
+}
 
-console.log(skycolor === carcolor);
-console.log(haircolor === carcolor);
-console.log(haircolor === skycolor);
+weather(50)
