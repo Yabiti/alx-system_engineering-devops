@@ -1,8 +1,5 @@
-var student = {
-    name: "marry",
-    age: 55,
-    grades: [98, 88 ,78]
-}
-for(property in student){
-    console.log(property)
+var opertaions = [sum , multiply, divide, subtract];
+
+for(i = 0; i < opertaions.length; i++){
+    console.log(opertaions.multiply(5, 10));
 }
