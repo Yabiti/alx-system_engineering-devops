@@ -8,3 +8,5 @@ var student = {
         SQL: 90
     }
 }
+
+console.log(student.grades.Javascript);
