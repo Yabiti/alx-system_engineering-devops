@@ -1,2 +1,3 @@
-students.push("Marry")
-console.log(students[3]);
+var removedStudents = students.pop("marry");
+connsole.log(students.toString());
+console,log(removedStudents);
