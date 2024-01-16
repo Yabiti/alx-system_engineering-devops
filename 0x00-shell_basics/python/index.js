@@ -7,4 +7,4 @@
 }
 var student1 = createstudent("marry", 10)
 var student2 = createstudent("michael", 15)
-console.log(student1.name);
+console.log(student1.name, student2.name);
