@@ -1,2 +1,2 @@
-students.push("Aziti");
-console.log(stidents[4]);
+students.push("Marry")
+console.log(students[3]);
