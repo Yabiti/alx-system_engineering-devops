@@ -1,5 +1,7 @@
-var opertaions = [sum , multiply, divide, subtract];
-
-for(i = 0; i < opertaions.length; i++){
-    console.log(opertaions.multiply(5, 10));
+var operations = {
+    sum: function(x, y){return x + y; },
+    divide: function(x,y){return x / y},
+    multiply: function(x,y){return x * y},
+    subtract: function(x,y){return x - y}
 }
+console.log(operations.multiply(5,10));
