@@ -1,9 +1,4 @@
-var students = [
-    ["marry", 10],
-    ["Hellen", 13],
-    ["yabetse", 15]
-];
+student.gender = "female";
+student.height = "122cm";
 
-var removedStudent = students.pop();
-console.log(students.tostring);
-console.log(removedStudent);
+console.log(student.gender, student.height);
