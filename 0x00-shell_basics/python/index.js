@@ -1,12 +1,8 @@
 var student = {
-    name: "yabetse",
-    age: 24,
-
-    grades: {
-        Javascript: 85,
-        C: 75,
-        SQL: 90
-    }
+    name: "marry",
+    age: 55,
+    grades: [98, 88 ,78]
 }
-
-console.log(student.grades.SQL);
+for(property in student){
+    console.log(property)
+}
