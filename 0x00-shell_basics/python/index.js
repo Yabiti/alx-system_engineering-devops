@@ -1,18 +1,11 @@
-var createstudent = function(name, age){
-    var student = {
-        name: name,
-        age: age,
-        birthday: function(){
-            this.age++;
-        }
-    }
-    return student;
-}
+var multiply = 10 * 10;
+var divide = 10 / 10;
+var sum = 10 + 5;
+var substract = 15 -10;
+var float = 15 / 13;
 
-var student1 = createstudent("yabetse", 25);
-var student2 = createstudent("chere", 21);
-
-console.log(student1.name, student1.age);
-console.log(student2.name, student2.age);
-student1.birthday();
-console.log(student1.name, student1.age);
+console.log("ten times ten is ", multiply);
+console.log("ten divide by ten is ", divide);
+console.log("ten plus ten is", sum);
+console.log("fifteen substracted by five is", substract);
+console.log("fifteen divide by thirteen is ", float);
