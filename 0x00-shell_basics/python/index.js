@@ -1,17 +1,24 @@
-var weather = function(temprature){
-    console.log("the temprature outside is", temprature , "degree farenheight!");
-
-    if(temprature <=20){
-        console.log("it's getting cold outside better wear a jacket!");
-    } else if(temprature <=30) {
-        console.log("the weather is pleasant outside!");
-    } else if(temprature <=40) {
-        console.log("it's hot outside!");
-    } else {
-        console.log("do not leave home!");
+var sellStock = function(stockPrice, sellPrice){
+    //write your code here.
+    console.log("the price is",sellPrice);
+    var sell = {
+        sellPrice: stockPrice
     }
-}
-weather(21)
-weather(55)
-weather(35)
-weather(19)
+   
+    if (sellPrice <= 200){
+        console.log("not fair price");
+    } else if(sellPrice <= 400){
+        console.log("not a fair price");
+    } else if (sellPrice >= 600){
+        console.log("sell")
+    } else if(sellPrice >= 800){
+        console.log(sell);
+    } else if(sellPrice >= 1000){
+        console.log("sell");
+    }
+  }
+  sellStock(150, 200);
+  sellStock(350, 400);
+  sellStock(500,600);
+  sellStock(700, 800);
+  sellStock(950, 1000);
