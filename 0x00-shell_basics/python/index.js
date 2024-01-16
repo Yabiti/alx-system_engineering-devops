@@ -6,5 +6,5 @@ var student = {
         Javascript: 85,
         C: 75,
         SQL: 90
-    }    
+    }
 }
