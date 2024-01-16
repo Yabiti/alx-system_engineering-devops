@@ -1,7 +1,7 @@
-var num = 10;
+var skycolor = "blue";
+var haircolor = "black";
+var carcolor = "blue";
 
-num++;
-console.log(num);
-
-num--;
-console.log(num);
+console.log(skycolor === carcolor);
+console.log(haircolor === carcolor);
+console.log(haircolor === skycolor);
