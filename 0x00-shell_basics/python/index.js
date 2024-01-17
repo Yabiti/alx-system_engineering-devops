@@ -1,2 +1,2 @@
-var para = document.querySelector('p');
-para.innerHTML = "we just did something";
+var p = document.querySelector('p');
+console.log("element", p.id);
