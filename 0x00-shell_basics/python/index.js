@@ -1,8 +1,8 @@
 var student = {
     name: "Marry",
-    age: 15
+    age: 15,
+    gender: "female"
 }
 
-console.log(student.name, student.age);
-delete student.name;
-console.log(student.name);
+for(property in student);
+console.log(property);
