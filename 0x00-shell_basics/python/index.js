@@ -1,2 +1,2 @@
-var p = document.querySelector('p');
-console.log("element", p.id);
+var logo = document.getElementById("logo");
+logo.innerHTML = "the most beautiful day ever";
