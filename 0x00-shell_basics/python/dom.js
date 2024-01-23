@@ -12,3 +12,8 @@ li3.innerHTML = "unordered list";
 
 var clean = document.querySelector('body');
 clean.appendChild(ul);
+
+var clean1 = document.querySelector('ul');
+clean1.appendChild('li1');
+clean2.appendChild('li2');
+clean3.appendChild('li3');
