@@ -1,10 +1,5 @@
-var headings = document.getElementsByTagName('h1');
-var paragraphs = document.getElementsByTagName('p');
+var h1 = document.createElement('h1');
+h1.innerHTML = "get off";
 
-for(var i = 0; i < headings.length; i++){
-    headings[i].style.color = "green";
-}
-
-for(var i = 0; i <paragraphs.length; i++){
-    paragraphs[i].style.color = "blue";
-}
+var clean = document.querySelector("#clean");
+clean.appendChild('h1');
