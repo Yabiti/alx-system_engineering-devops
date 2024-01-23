@@ -1,4 +1,2 @@
-var clean = document.querySelector("#clean");
-var cleanparagrapgh = document.querySelector("#clean > p");
-
-var oldElement = clean.removeChild(cleanparagrapgh);
+var u1 = document.createElement('li')
+li.innerHTML = "unordered list"
