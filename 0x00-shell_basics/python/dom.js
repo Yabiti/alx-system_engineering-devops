@@ -1,3 +1,10 @@
-var mainHeading = document.getElementById('mainHeading');
+var headings = document.getElementsByTagName('h1');
+var paragraph = document.getElementsByTagName('p');
 
-mainHeading.innerHTML = "Access an element with an id attribute using <code>document.getElementById()</code>";
+for(var i = 0; i < headings.length; i++){
+    headings[i].style.color = "green";
+}
+
+for(var i = 0; i <paragraphs.length; i++){
+    
+}
