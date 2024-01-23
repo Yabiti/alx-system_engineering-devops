@@ -13,6 +13,7 @@ li1.innerHTML = "list three";
 var clean = document.querySelector('body');
 clean.appendChild(ul);
 
-var clean1 = document.querySelector(ul);
+var clean1 = document.querySelector('ul');
 clean1.appendChild(li1);
-clean1.appendChild(li2)
+clean1.appendChild(li2);
+clean1.appendChild(li3);
