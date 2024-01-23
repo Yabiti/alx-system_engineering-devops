@@ -10,5 +10,5 @@ var u1 = document.createElement('ul')
 var li3 = document.createComment('li');
 li3.innerHTML = "unordered list";
 
-var content = document.querySelector('body');
+var clean = document.querySelector('body');
 clean.appendChild(ul);
