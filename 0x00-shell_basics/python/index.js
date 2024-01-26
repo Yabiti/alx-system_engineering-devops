@@ -4,6 +4,5 @@ var students = [
   ['hellen', 17]
 ];
 
-console.log(students);
-students.push('allie')
+students.pop('hellen')
 console.log(students);
