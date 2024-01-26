@@ -1,15 +1,10 @@
-var weather = function(temprature){
-  console.log("the weather outside is ", temprature , " degree faranheight!");
+i = 10;
 
-  if(temprature >= 65){
-    console.log("the weather is hot today");
-  } else if(temprature >= 50){
-    console.log("the weather is pleasant today");
-  } else {
-    console.log("the weather is cold outside");
-  }
-} 
-
-weather(60);
-weather(50);
-weather(10);
+while(i <= 10){
+if(i !== 10){
+  console.log("the number is " + num + "now the loop is over");
+  i = i + 1;
+}
+  i++;
+  return i;
+}
