@@ -7,4 +7,4 @@ var students = [
 console.log(students);
 
 var removedstudents = students.pop();
-console.log(students.toString());
+console.log(removedstudents);
