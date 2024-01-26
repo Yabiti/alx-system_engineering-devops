@@ -1,5 +1,4 @@
-var todoItems = document.querySelectorAll('#todos > li');
+Number1 = 10;
+Number2 = 5;
 
-for(var i = 0; i < todoItems.length; i++) {
-  todoItems[i].innerHTML = "Todo Item #" + (i+1);
-}
+console.log(Number1 + Number2);
