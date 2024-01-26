@@ -1,12 +1,9 @@
-var students = {
-    name : "marry",
-    age : 25,
-    grades : {
-        quiz1: 85,
-        quiz2: 90
-    }
+var operations = {
+    sum : function(x,y){return x + y },
+    divide : function(x,y){return x / y},
+    multiply: function(x,y){return x * y},
+    subtract: function(x,y){return x - y}
+
 }
-console.log(students.name);
-console.log(students.grades.quiz1);
-students.gender = "Female";
-console.log(students.gender);
+
+console.log(operations.divide[5/10]);
