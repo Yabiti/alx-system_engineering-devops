@@ -6,4 +6,6 @@ var createStudent = function(name, age){
     return student;
 }
 var student1 = createStudent("marry", 15);
+var student2 = createStudent("olisse", 21);
 console.log("students", student1.name, student1.age);
+console.log("students", student2.name, student2.age);
