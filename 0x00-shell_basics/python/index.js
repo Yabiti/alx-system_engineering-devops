@@ -1,14 +1,11 @@
 var students = [
-  ['marry'],
-  ['else'],
-  ['hellen']
+    ["marry", 10],
+    ["hellen", 15],
+    ["barbie", 17]
 ];
 
-console.log(students);
 var printStudents = function(students){
-for(var i = 0; i < students.push('jota'); i++){
-  console.log(students[2]);
-
+    for(var i = 0; i < students.length; i++){
+        console.log(students[i]);
+    }
 }
-}
-printStudents(students);
