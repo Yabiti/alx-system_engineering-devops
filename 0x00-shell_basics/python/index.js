@@ -1,10 +1,7 @@
-var i = 0;
+var students = [
+  ['marry', 10],
+  ['else', 15],
+  ['hellen', 17]
+];
 
-while(i <= 10){
-if(i !== 10){
-  console.log("the number is " + i);
-} else {
-  console.log("the number is " + i + " now the loop is over")
-}
-i++;
-}
+console.log(students);
