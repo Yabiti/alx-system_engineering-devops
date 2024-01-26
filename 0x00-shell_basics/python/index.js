@@ -1,10 +1,13 @@
 var students = [
-  ['marry', 10],
-  ['else', 15],
-  ['hellen', 17]
+  ['marry'],
+  ['else'],
+  ['hellen']
 ];
 
 console.log(students);
-var newstudent = students.unshift('bush');
-console.log(newstudent);
-console.log(students.toString());
+var printStudents = function(students){
+for(var i = 0; i < students.length; i++){
+  console.log(students[i]);
+}
+}
+printStudents(students);
