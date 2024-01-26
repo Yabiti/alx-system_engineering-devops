@@ -4,5 +4,5 @@ school = "GCA";
 grade = "A"
 period = ".";
 
-student = name + age + school + period
+student = "my name is " + name + " and my age is " + age + " my grade is "+  age  + " period" + period
 console.log(student);
