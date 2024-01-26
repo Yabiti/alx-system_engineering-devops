@@ -5,6 +5,6 @@ var students = [
 ];
 
 console.log(students);
-
-var removedstudents = students.pop();
-console.log(removedstudents);
+var newstudent = students.unshift('bush');
+console.log(newstudent);
+console.log(students.toString());
