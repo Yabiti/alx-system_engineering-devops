@@ -1,4 +1,5 @@
-Number1 = 10;
-Number2 = 5;
-
-console.log(Number1 + Number2);
+name = "baily";
+age = 35;
+school = "GCA";
+grade = "A"
+period = ".";
