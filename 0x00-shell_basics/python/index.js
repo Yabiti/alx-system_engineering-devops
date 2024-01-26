@@ -6,8 +6,9 @@ var students = [
 
 console.log(students);
 var printStudents = function(students){
-for(var i = 0; i < students.length; i++){
-  console.log(students[i]);
+for(var i = 0; i < students.push('jota'); i++){
+  console.log(students[2]);
+
 }
 }
 printStudents(students);
