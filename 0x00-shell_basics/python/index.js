@@ -4,5 +4,6 @@ var students = [
   ['hellen', 17]
 ];
 
+console.log(students);
 students.pop('hellen')
 console.log(students);
