@@ -1,10 +1,4 @@
-i = 10;
+var number1 = 10;
+var number2 = 5;
 
-while(i <= 10){
-  if(i !== 10){
-    console.log("the number is " + num + " now the loop is over");
-    i = i + 1;
-  }
-  i++;
-  return i;
-}
+console.log(number1 + number2);
