@@ -5,5 +5,6 @@ var students = [
 ];
 
 console.log(students);
-students.pop('hellen')
-console.log(students);
+
+var removedstudents = students.pop();
+console.log(students.toString());
