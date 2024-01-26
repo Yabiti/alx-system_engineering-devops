@@ -8,3 +8,5 @@ var students = {
 }
 console.log(students.name);
 console.log(students.grades.quiz1);
+students.gender = "Female";
+console.log(students.gender);
