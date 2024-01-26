@@ -6,7 +6,7 @@ var operations = {
 
 }
 
-console.log(operations.divide[5/10]);
-console.log(operations.multiply[5,10]);
-console.log(operations.subtract[5,10]);
-console.log(operations.sum[5,10]);
+console.log(operations.divide(100,10));
+console.log(operations.multiply(5,10));
+console.log(operations.subtract(5,10));
+console.log(operations.sum(5,10));
