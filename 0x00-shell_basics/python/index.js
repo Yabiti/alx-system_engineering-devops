@@ -1,4 +1,3 @@
-var number1 = 10;
-var number2 = 5;
-
-console.log(number1 + number2);
+var skycolor = "blue";
+var haircolor = "dark";
+var carcolor = "dark";
