@@ -5,5 +5,5 @@ var students = [
 ];
 
 console.log(students);
-var classsize = students.length;
-console.log(classsize);
+students.push('allie')
+console.log(students);
