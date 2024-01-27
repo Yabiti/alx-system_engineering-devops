@@ -4,7 +4,7 @@ var createStudent = function(name, age){
         age: age,
         birthday: function(){
             age++;
-    }
+        }
     }
     return student;
 }
