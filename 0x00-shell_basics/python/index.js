@@ -1,7 +1,10 @@
 var createStudent = function(name, age){
     var student = {
         name: name,
-        age: age
+        age: age,
+        birthday: function(){
+            age++;
+    }
     }
     return student;
 }
