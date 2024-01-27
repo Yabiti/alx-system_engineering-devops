@@ -1,1 +1,2 @@
-var h1 = document.getElementById('h1');
+var h1 = document.getElementById('main');
+main.innerHTML  = "go to hell if ou can!";
