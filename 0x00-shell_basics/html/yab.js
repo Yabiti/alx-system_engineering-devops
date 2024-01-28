@@ -5,4 +5,5 @@ button.onclick = function(){
     p.innerHTML = "clicked"
 
     var content = document.querySelector('body');
+    content.appendChild(p);
 }
