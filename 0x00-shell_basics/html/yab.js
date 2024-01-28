@@ -1,9 +1,11 @@
+var randomColor = function(){
+    var rvalue = function(){
+        return Math.round(Math.random()*255);
+    }
+    return 'rgb(' +rvalue() + "," + rvalue() + "," + rvalue() + ")";
+}
+
 var button = document.querySelector('button');
-
 button.onclick = function(){
-    var p = document.createElement('p');
-    p.innerHTML = "clicked"
-
-    var content = document.querySelector('body');
-    content.appendChild(p);
+    this.style.backgroundColor = randomColor();
 }
