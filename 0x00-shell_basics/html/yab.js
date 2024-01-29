@@ -6,4 +6,5 @@ button.onclick = function(){
 
     var content = document.querySelector('body');
     content.appendChild(p);
+    
 }
