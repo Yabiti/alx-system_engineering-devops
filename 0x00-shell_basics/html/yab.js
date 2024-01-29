@@ -1,4 +1,4 @@
 var button = document.querySelector('button');
-button.ondblclick = function(){
-    this.innerHTML = "doubleclicked";
+button.ondblclick = function(event){
+    this.innerHTML = "key down: " + event.key;
 }
