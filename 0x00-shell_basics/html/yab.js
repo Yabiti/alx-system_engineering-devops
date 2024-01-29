@@ -4,3 +4,5 @@ var randomColor = function(){
     }
     return 'rgb(' + rvalue() + "," + rvalue() + "," + rvalue() + ")";
 }
+
+var button = document.querySelector('button');
