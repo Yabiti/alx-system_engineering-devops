@@ -1,7 +1,6 @@
-var button = document.querySelector('button');
+var button = document.querySelector('body');
+
 button.onclick = function(){
     var p = document.createElement('p');
-    p.innerHTML = "check me out!";
+    p.innerHTML = "Checked!";
 }
-var content = document.querySelector('body');
-content.appendChild(p);
