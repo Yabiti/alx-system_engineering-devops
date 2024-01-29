@@ -1,10 +1,7 @@
-var checkstatus = document.getElementById('checkstatus');
-var checkbox = document.getElementById('checkbox');
-
-checkbox.onchange = function(){
-    if(this.checked){
-        checkstatus.innerHTML = "checked!";
-    } else {
-        checkstatus.innerHTML = "Not Checked!";
-    }
+var button = document.querySelector('button');
+button.onclick = function(){
+    var p = document.createElement('p');
+    p.innerHTML = "check me out!";
 }
+var content = document.querySelector('body');
+content.appendChild(p);
