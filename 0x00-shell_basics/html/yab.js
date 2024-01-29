@@ -1,8 +1,8 @@
 var randomcolor = function(){
     var rvalue = function(){
-        return Math.round(Math.random()*255);
+        return Math.round(Math.round()*255);
     }
-    return 'rgb(' + rvalue() + "," + rvalue() + "," + rvalue() + ")";
+    return 'rgb(' + rvalue() + "," + rvalue() + "," + rvalue + ",";
 }
 
 var button = document.querySelector('button');
