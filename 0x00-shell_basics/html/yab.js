@@ -1,4 +1,4 @@
 var button = document.querySelector('button');
-button.onmouseleave = function(){
-    this.innerHTML = "left";
+button.ondblclick = function(){
+    this.innerHTML = "doubleclicked";
 }
