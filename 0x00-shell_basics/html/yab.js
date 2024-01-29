@@ -1,2 +1,2 @@
-var content = document.getElementById("content");
-var inputtype = document.getElementById("inputtype");
+var checkstatus = document.getElementById('checkstatus');
+var checkbox = document.getElementById('checkbox');
