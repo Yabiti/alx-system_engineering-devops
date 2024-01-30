@@ -1,6 +1,13 @@
-var randomColor = function(){
-    var rvalue = function(){
-        return Math.round(Math.random()*255);
-    }
-    return 'rgb(' + rvalue() + "," + rvalue() + "," + rvalue() + ")";
+var button = document.querySelector('button');
+
+button.onmouseenter = function(){
+    this.innerHTML = "mouse entered!";
+}
+
+button.ondblclick = function(){
+    this.innerHTML = "double clicked!";
+}
+
+button.onmouseleave = function(){
+    this.innerHTML = "mouse left!";
 }
