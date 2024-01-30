@@ -1,11 +1,3 @@
-var yab = document.getElementById('yab');
+var checkStautus = document.getElementById('checkStatus');
 
-var textid = document.getElementById('textid');
-
-yab.oninput = function(){
-    textid.oninput = this.value;
-}
-
-yab.onfocus = function(){
-    textid.onfocus = this.value;
-}
+var checkbox = document.getElementById('checkbox');
