@@ -1,7 +1,7 @@
-var textid = document.getElementById('textid');
-
 var yab = document.getElementById('yab');
 
+var textid = document.getElementById('textid');
+
 yab.oninput = function(){
-    textid.innerHTML = this.value;
+    textid.oninput = this.value;
 }
