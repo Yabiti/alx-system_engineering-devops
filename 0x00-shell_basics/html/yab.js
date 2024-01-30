@@ -1,13 +1,13 @@
 var button = document.querySelector('button');
 
 button.onmouseenter = function(){
-    this.innerHTML = "mouse entered!";
-}
+    this.innerHTML = "mouseentered!";
 
 button.ondblclick = function(){
-    this.innerHTML = "double clicked!";
-}
+    this.innerHTML = "doubleclicked!";
 
 button.onmouseleave = function(){
     this.innerHTML = "mouse left!";
+}
+}
 }
